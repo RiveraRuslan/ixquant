@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ixquanto</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;800;900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="/images/favicon.svg" type="image/svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+</head>
+
+<body>
+  <div class="box__page-free-trial">
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-inner">
+            <a class="header__logo" href="index.html">
+              <img class="header__logo-img" src="images/logo.svg" alt="">
+            </a>
+            <div class="header__icons">
+              <a class="header__icon-youtube" href="#"></a>
+              <a class="header__icon-facebook" href="#"></a>
+            </div>
+            <!-- Menu active -->
+            <nav class="header__menu">
+              <button class="menu__btn">
+                <span class="menu__btn-line"></span>
+              </button>
+              <ul class="header__menu-list">
+                <li class="header__menu-item pb-0 active__page">
+                  <!-- "active__page"  Class for the active page -->
+                  <span>
+                    <a class="header__menu-list-link active-mobile">
+                      Our Services
+                    </a>
+                  </span>
+                  <!-- Menu-Open -->
+                  <ul class="header__menu-list-show">
+                    <li>
+                      <a class="header__menu-link" href="option-analysis.html">Option Analysis</a>
+                    </li>
+                    <li>
+                      <a class="header__menu-link" href="custom-development.html">Custom Development</a>
+                    </li>
+                  </ul>
+                  <!-- Menu-Open -->
+                </li>
+                <li class="header__menu-item">
+                  <a class="header__menu-list-link " href="application-overview.html">Application Overview</a>
+                </li>
+                <li class="header__menu-item">
+                  <a class="header__menu-list-link " href="pricing.html">Pricing</a>
+                </li>
+                <li class="header__menu-item">
+                  <a class="header__menu-list-link" href="contact-us.html">Contact</a>
+                </li>
+                <button class="header__btn-mob">Log In</button>
+                <div class="header__icons-mob">
+                  <a class="header__icon-youtube-mob" href="#"></a>
+                  <a class="header__icon-facebook-mob" href="#"></a>
+                </div>
+              </ul>
+            </nav><!-- End main menu -->
+            <a class="header__btn" href="log-in.html">Log In</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="registration">
+      <div class="container">
+        <h3 class="registration__customer-title heading">Free trial request</h3>
+        <div class="registration__box">
+          <div class="registration__customer">
+            <p class="registration__customer-text">Please, fill in the form to request a fully functional <span
+                class="registration__customer-orange">7-DAY access</span> to our services.</p>
+            <p class="registration__customer-text">Once the trial period is over and if you like our <span>Option
+                Simulator,</span> you will be able to get a subscription on the <span>Subscription</span> page.</p>
+            <p class="registration__customer-text">Should you have any question or difficulty using the Option
+              <span>Simulator, please,</span> do not hesitate to contact us. We are here for you and will be happy to
+              help.</p>
+            <div class="registration-filter__content">
+              <div class="registration-filter__content-box">
+                <label class="registration-filter__content-label">
+                  <input class="filter-style" name="radio" type="radio" checked>
+                  <span class="registration-filter__content-text">Business Customer</span>
+                </label>
+              </div>
+              <div class="registration-filter__content-box">
+                <label class="registration-filter__content-label">
+                  <input class="filter-style" name="radio" type="radio">
+                  <span class="registration-filter__content-text">Private Customer</span>
+                </label>
+              </div>
+            </div>
+            <div class="registration__form">
+              <form>
+                <div class="registration__form-line">
+                  <input class="registration__form-input  contacts__form-input" placeholder="First name" type="text">
+                  <input class="registration__form-input  contacts__form-input" placeholder="Last name" type="text">
+                  <input class="registration__form-input  contacts__form-input" placeholder="E-mail" type="text">
+                  <input class="registration__form-input  contacts__form-input" placeholder="Phone number" type="tel">
+                </div>
+                <select class="registration__form-select select-style">
+                  <option>Belgium</option>
+                  <option>France</option>
+                  <option>Russian Federatoin</option>
+                </select>
+              </form>
+            </div>
+          </div>
+          <div class="registration__billing">
+            <div class="registration__form">
+              <div class="registration__form-txt">Billing address (Please, fill in if you require the invoice)</div>
+              <form>
+                <div class="registration__form-line">
+                  <input class="registration__form-input contacts__form-input" placeholder="Company name" type="text" />
+                  <input class="registration__form-input contacts__form-input" placeholder="Street address"
+                    type="text" />
+                  <input class="registration__form-input contacts__form-input" placeholder="Vat Number" type="tel" />
+                  <input class="registration__form-input registration__form-input-min contacts__form-input"
+                    placeholder="City" type="text" />
+                  <input class="registration__form-input registration__form-input-min contacts__form-input"
+                    placeholder="ZIP" type="text" />
+                </div>
+                <div class="registration__form-txt">Please, select your password</div>
+                <div class="registration__form-line">
+                  <input class="registration__form-input contacts__form-input" placeholder="Enter the password"
+                    type="password" />
+                  <input class="registration__form-input contacts__form-input" placeholder="Re-Type your password"
+                    type="password" />
+                </div>
+                <div class="registration__form-line-checkbox">
+                  <input class="filter-style" id="vehicle1" for="vehicle1" type="checkbox" />
+                  <label class="registration__form-line-text" for="vehicle1"> I agree to the Terms and Privacy
+                    policy</label>
+                </div>
+                <button class="contacts__form-btn btn" type="submit">register</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_box">
+          <ul class="footer-list">
+            <li class="footer-list__item"><a class="#" href="terms.html">Terms</a></li>
+            <li class="footer-list__item"><a class="#" href="privacy.html">Privacy</a></li>
+            <li class="footer-list__item"><a class="#" href="cookie_policy.html">Cookie Policy</a></li>
+          </ul>
+          <div class="footer__copy">
+            Copyright © 2020 iXQUANT brand of EMI-FT LTD
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

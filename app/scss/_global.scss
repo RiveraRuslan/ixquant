@@ -1,0 +1,208 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #000;
+  overflow-x: hidden;
+  min-width: 320px;
+}
+
+.wrapper,
+.container,
+.container-table,
+.container-long {
+  max-width: 1236px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container-table {
+  max-width: 1600px;
+}
+
+.wrapper {
+  padding: 0 93px;
+}
+
+.container-long {
+  max-width: 100%;
+}
+
+//Adaptive global container
+.box__page,
+.box__page-custom,
+.box__page-pricing,
+.box__page-contact,
+.box__page-free-trial,
+.box__page-personal-data,
+.box__page-instruments {
+  background-image: url('../images/option_strategies_builder.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 768px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box__page-instruments{
+  background-image: none;
+}
+
+.box__page-custom {
+  background-image: url('../images/custom-bg.jpg');
+}
+
+.box__page-pricing {
+  background-image: url('../images/price-bg.jpg');
+}
+
+.box__page-free-trial,
+.box__page-contact,
+.box__page-personal-data {
+  background-image: url('../images/option_analysis.jpg');
+}
+
+//Button_Show-mob
+.products-item-btn-mob {
+  display: none;
+}
+
+.menu__btn {
+  display: none;
+}
+
+.btn {
+  color: #fff;
+  background-color: #19F819;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  transition: all .3s ease;
+  outline: none;
+  border: 2px solid transparent;
+}
+.btn:active {
+  color: #F8FFF8;
+  background-color: #4BEA4B;
+  border: 2px solid #4BEA4B;
+}
+.btn:hover {
+  box-shadow: 0px 0px 12px rgba(0, 68, 0, 0.16);
+}
+.btn.subscription__box-btn-cabinet--active:active{
+  background-color: #f1765c;
+  border: 2px solid #f1765c;
+}
+
+.box__info-title {
+  font-size: 50px;
+  line-height: 114%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.box__info-text {
+  font-size: 17px;
+  line-height: 165%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.box__info-text span {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.heading {
+  font-size: 32px;
+  line-height: 125%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.toggle__show-btn {
+  display: none;
+  border: none;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13);
+  text-align: center;
+  cursor: pointer;
+  margin: auto;
+
+  img {
+    margin-top: 14px;
+  }
+}
+
+
+
+
+// &__answers-btn {
+//   border: 2px solid #00FF00;
+//   background-color: transparent;
+//   color: #00FF00;
+//   padding: 12px 27px;
+//   width: 270px;
+//   text-align: center;
+//   font-family: 'Lato', sans-serif;
+//   font-weight: 700;
+//   font-size: 18px;
+//   line-height: 128%;
+//   transition: all .3s ease;
+//   position: relative;
+//   bottom: 60px;
+//   &:hover {
+//     border: 2px solid #00FF00;
+//     background-color: #00FF00;
+//     color: #fff;
+//   }
+//   &:active {
+//     border: 2px solid #4BEA4B;
+//     background-color: #4BEA4B;
+//     color: #fff;
+//   }
+// }

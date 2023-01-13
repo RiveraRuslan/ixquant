@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ixquanto</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;800;900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="/images/favicon.svg" type="image/svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__top">
+      <div class="container">
+        <div class="header__top-inner">
+          <a class="header__logo" href="index.html">
+            <img class="header__logo-img" src="images/logo.svg" alt="">
+          </a>
+          <div class="header__icons">
+            <a class="header__icon-youtube" href="#"></a>
+            <a class="header__icon-facebook" href="#"></a>
+          </div>
+          <!-- Menu active -->
+          <nav class="header__menu">
+            <button class="menu__btn">
+              <span class="menu__btn-line"></span>
+            </button>
+            <ul class="header__menu-list">
+              <li class="header__menu-item pb-0 active__page">
+                <!-- "active__page"  Class for the active page -->
+                <span>
+                  <a class="header__menu-list-link active-mobile">
+                    Our Services
+                  </a>
+                </span>
+                <!-- Menu-Open -->
+                <ul class="header__menu-list-show">
+                  <li>
+                    <a class="header__menu-link" href="option-analysis.html">Option Analysis</a>
+                  </li>
+                  <li>
+                    <a class="header__menu-link" href="custom-development.html">Custom Development</a>
+                  </li>
+                </ul>
+                <!-- Menu-Open -->
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-list-link " href="application-overview.html">Application Overview</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-list-link " href="pricing.html">Pricing</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-list-link" href="contact-us.html">Contact</a>
+              </li>
+              <button class="header__btn-mob">Log In</button>
+              <div class="header__icons-mob">
+                <a class="header__icon-youtube-mob" href="#"></a>
+                <a class="header__icon-facebook-mob" href="#"></a>
+              </div>
+            </ul>
+          </nav><!-- End main menu -->
+          <a class="header__btn" href="log-in.html">Log In</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="application">
+    <div class="container">
+      <div class="application__box-info box__info">
+        <h2 class="box__info-title">
+          Application
+          overview
+        </h2>
+        <p class="box__info-text">
+          Our <span>Option analysis</span> set of tools is based on the <span>Black-Scholes</span> option pricing model.
+          The application is built in such a way that it is not linked to the current real market data but rather to the
+          theoritical option values calculated by the option pricing model.
+          This gives you an unlimited flexibility in building and simulating the option trading strategies and quickly
+          see how they would perform under the various market metrics.
+        </p>
+      </div>
+      <h3 class="application__answers-title heading">Components of the Option Analysis application:</h3>
+      <div class="cart">
+        <!-- cart-01  mr-r-->
+        <div class="cart__box">
+          <p class="cart__title">
+            Option Simulator
+          </p>
+          <div class="cart__block">
+            <p class="cart__global-text">
+              The <span>Option Simulator</span> screen will be your main working environement for option analysis and
+              strategies testing.
+              Multiple features and controls are available. To name just some of them:
+            </p>
+            <ul class="cart__list">
+              <li class="cart__list-text">Set up the desired market metrics for your simulation</li>
+              <li class="cart__list-text">Build multi-leg and multi-expiration strategies</li>
+              <li class="cart__list-text">Express the simulation results in the currency of your choice</li>
+              <li class="cart__list-text">Quickly visualise the simulation results with the Payoff chart</li>
+            </ul>
+          </div>
+        </div>
+        <!-- carts-02 -->
+        <div class="cart__box">
+          <p class="cart__title">
+            Setups DB
+          </p>
+          <div class="cart__block">
+            <p class="cart__global-text">
+              When making a strategy simulation, you will be able to save it for future use.
+              The <span>Setups DB</span> is the database of all the setups (strategies) or portfolios you created and
+              saved in the Option Simulator.
+            </p>
+            <ul class="cart__list">
+              <li class="cart__list-text">With one click a setup or a portfolio is uploaded into the Option Simulator
+                window and you can work with it again</li>
+              <li class="cart__list-text">Sort the saved setups by the underlying instrument or the strategy bias
+                (bullish, bearish or neutral)</li>
+              <li class="cart__list-text">Delete the unnedeed setups or portfolios</li>
+            </ul>
+          </div>
+        </div>
+        <!-- carts-03 -->
+        <div class="cart__box mr-r">
+          <p class="cart__title">
+            Instruments table
+          </p>
+          <div class="cart__block">
+            <p class="cart__global-text">
+              The <span>Instruments table</span> is the database of all your underlying instruments you are working
+              with.
+              You will be able to manage and adjust this list according to your needs:
+            </p>
+            <ul class="cart__list">
+              <li class="cart__list-text">Define which underlying instruments you want to work with</li>
+              <li class="cart__list-text">Set up the market metrics for each underlying instrument (i.e. IV, expiry
+                dates, options related data and so on)</li>
+              <li class="cart__list-text">It is also possible to restore the data to default levels with one click</li>
+          </div>
+        </div>
+        <!-- carts-04 -->
+        <div class="cart__box is__hiden">
+          <p class="cart__title">
+            Instruments table
+          </p>
+          <div class="cart__block">
+            <p class="cart__global-text">
+              The <span>Instruments table</span> is the database of all your underlying instruments you are working
+              with.
+              You will be able to manage and adjust this list according to your needs:
+            </p>
+            <ul class="cart__list">
+              <li class="cart__list-text">Define which underlying instruments you want to work with</li>
+              <li class="cart__list-text">Set up the market metrics for each underlying instrument (i.e. IV, expiry
+                dates, options related data and so on)</li>
+              <li class="cart__list-text">It is also possible to restore the data to default levels with one click</li>
+          </div>
+        </div>
+      </div>
+      <div class="application__box-info box__info">
+        <h2 class="box__info-title applicatio__info-title">
+          Getting started
+        </h2>
+        <div class="box__info-box">
+          <p class="box__info-text">
+            Our ultimate goal was to create the application which would be powerful,
+            handy and flexible at the same time. We really think that <span>Option Simulator</span> is exactly this.
+            Please, follow the link below to download the detailed step-by-step
+            <span>"Getting Started Guide"</span> which will take you through the quick setup process so that you can start evaluating and using all the features offered by our Option analysis set of tools.
+          </p>
+          <a class="application__link-download" href="#">Download "Getting Started Guide"</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer_box">
+        <ul class="footer-list">
+          <li class="footer-list__item"><a class="#" href="terms.html">Terms</a></li>
+          <li class="footer-list__item"><a class="#" href="privacy.html">Privacy</a></li>
+          <li class="footer-list__item"><a class="#" href="cookie_policy.html">Cookie Policy</a></li>
+        </ul>
+        <div class="footer__copy">
+          Copyright © 2020 iXQUANT brand of EMI-FT LTD
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

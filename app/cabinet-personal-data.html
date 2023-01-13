@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ixquanto</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;800;900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="/images/favicon.svg" type="image/svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+</head>
+
+<body>
+  <div class="box__page-free-trial">
+    <header class="header">
+      <div class="header__top">
+        <div class="container-long">
+          <div class="header__top-inner">
+            <a class="header__logo" href="#">
+              <img class="header__logo-img-cab header__logo-img" src="images/logo.svg" alt="">
+            </a>
+            <div class="header__icons">
+              <a class="header__icon-youtube" href="#"></a>
+              <a class="header__icon-facebook" href="#"></a>
+            </div>
+            <!-- Menu active -->
+            <nav class="header__menu">
+              <button class="menu__btn">
+                <span class="menu__btn-line"></span>
+              </button>
+              <ul class="header__menu-list">
+                <li class="header__menu-item-cab header__menu-item  pb-0">
+                  <!-- "active__page"  Class for the active page -->
+                  <a class="header__menu-list-link" href="#">Simulator</a>
+                </li>
+                <li class="header__menu-item-cab header__menu-item ">
+                  <a class="header__menu-list-link " href="#">Setups</a>
+                </li>
+                <li class="header__menu-item-cab header__menu-item ">
+                  <a class="header__menu-list-link " href="#">Instruments Table</a>
+                </li>
+                <li class="header__menu-item-cab header__menu-item  active__page">
+                  <a class="header__menu-list-link active-mobile" href="cabinet-personal-data.html">Personal Data</a>
+                </li>
+                <li class="header__menu-item-cab header__menu-item ">
+                  <a class="header__menu-list-link" href="cabinet-subscription.html">Subscription</a>
+                </li>
+                <li class="header__menu-item-cab header__menu-item ">
+                  <a class="header__menu-list-link" href="cabinet-contacts-us.html">Contact</a>
+                </li>
+                <button class="header__btn-mob">Log In</button>
+                <div class="header__icons-mob">
+                  <a class="header__icon-youtube-mob" href="#"></a>
+                  <a class="header__icon-facebook-mob" href="#"></a>
+                </div>
+              </ul>
+            </nav><!-- End main menu -->
+            <div class="header__cabinet">
+              <a class="header__cabinet-id" href="#"><span>Client ID:</span> 0001123</a>
+              <a class="header__btn header__cabinet-active" href="#">Log off</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="cabinet-personal">
+      <div class="container">
+        <div class="cabinet-personal__form">
+          <form>
+            <h3 class="cabinet-personal-title heading">Personal Data</h3>
+            <div class="cabinet-personal__content registration-filter__content">
+              <div class="cabinet-personal__content-box registration-filter__content-box">
+                <label class="registration-filter__content-label">
+                  <input class="filter-style" name="radio" type="radio" checked>
+                  <span class="cabinet-personal__content-text registration-filter__content-text">Business
+                    Customer</span>
+                </label>
+              </div>
+              <div class="cabinet-personal__content-box registration-filter__content-box">
+                <label class="registration-filter__content-label">
+                  <input class="filter-style" name="radio" type="radio">
+                  <span class="cabinet-personal__content-text registration-filter__content-text">Private Customer</span>
+                </label>
+              </div>
+            </div>
+            <div class="cabinet-personal-id">Customer ID</div>
+            <div class="test">
+              <input class="cabinet-personal__input  contacts__form-input" placeholder="00168613" type="text" />
+              <input class="cabinet-personal__input  contacts__form-input" placeholder="E-mail" type="text" />
+              <input class="cabinet-personal__input  contacts__form-input" placeholder="First name" type="text" />
+              <input class="cabinet-personal__input  contacts__form-input" placeholder="Last name" type="text" />
+              <input class="cabinet-personal__input  contacts__form-input" placeholder="Phone number" type="tel" />
+              <select class="cabinet-personal__select select-style">
+                <option>Belgium</option>
+                <option>France</option>
+                <option>Russian Federatoin</option>
+              </select>
+              <div class="cabinet-personal-txt registration__form-txt">Billing address (Please, fill in if you require
+                the invoice)</div>
+              <div class="registration__form-line">
+                <input class="cabinet-personal__input contacts__form-input" placeholder="Company name" type="text" />
+                <input class="cabinet-personal__input contacts__form-input" placeholder="Street address" type="text" />
+                <input class="cabinet-personal__input contacts__form-input" placeholder="Vat Number" type="tel" />
+                <input class="cabinet-personal__input-min contacts__form-input" placeholder="City" type="text" />
+                <input class="cabinet-personal__input-min contacts__form-input" placeholder="ZIP" type="text" />
+              </div>
+              <button class="cabinet-personal-btn btn" type="submit">save changes</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_box">
+          <ul class="footer-list">
+            <li class="footer-list__item"><a class="#" href="terms.html">Terms</a></li>
+            <li class="footer-list__item"><a class="#" href="privacy.html">Privacy</a></li>
+            <li class="footer-list__item"><a class="#" href="cookie_policy.html">Cookie Policy</a></li>
+          </ul>
+          <div class="footer__copy">
+            Copyright © 2020 iXQUANT brand of EMI-FT LTD
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

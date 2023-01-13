@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ixquanto</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;800;900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="/images/favicon.svg" type="image/svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+</head>
+
+<body>
+  <div class="box__page-pricing">
+    <header class="header">
+      <div class="header__top">
+        <div class="container-long">
+          <div class="header__top-inner">
+            <a class="header__logo" href="#">
+              <img class="header__logo-img-cab header__logo-img" src="images/logo.svg" alt="">
+            </a>
+            <div class="header__icons">
+              <a class="header__icon-youtube" href="#"></a>
+              <a class="header__icon-facebook" href="#"></a>
+            </div>
+            <!-- Menu active -->
+            <nav class="header__menu">
+              <button class="menu__btn">
+                <span class="menu__btn-line"></span>
+              </button>
+              <ul class="header__menu-list">
+                <li class="header__menu-item-cab header__menu-item  pb-0">
+                  <!-- "active__page"  Class for the active page -->
+                  <a class="header__menu-list-link" href="#">Simulator</a>
+                </li>
+                <li class="header__menu-item-cab header__menu-item ">
+                  <a class="header__menu-list-link " href="#">Setups</a>
+                </li>
+                <li class="header__menu-item-cab header__menu-item ">
+                  <a class="header__menu-list-link " href="#">Instruments Table</a>
+                </li>
+                <li class="header__menu-item-cab header__menu-item  active__page">
+                  <a class="header__menu-list-link active-mobile" href="cabinet-personal-data.html">Personal Data</a>
+                </li>
+                <li class="header__menu-item-cab header__menu-item ">
+                  <a class="header__menu-list-link" href="cabinet-subscription.html">Subscription</a>
+                </li>
+                <li class="header__menu-item-cab header__menu-item ">
+                  <a class="header__menu-list-link" href="cabinet-contacts-us.html">Contact</a>
+                </li>
+                <button class="header__btn-mob">Log In</button>
+                <div class="header__icons-mob">
+                  <a class="header__icon-youtube-mob" href="#"></a>
+                  <a class="header__icon-facebook-mob" href="#"></a>
+                </div>
+              </ul>
+            </nav><!-- End main menu -->
+            <div class="header__cabinet">
+              <a class="header__cabinet-id" href="#"><span>Client ID:</span> 0001123</a>
+              <a class="header__btn header__cabinet-active" href="#">Log off</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="subscription">
+      <div class="container">
+        <h3 class="subscription-title heading">Our Subscription Plans</h3>
+        <div class="subscription__box-cart-cab subscription__box">
+          <!-- Info 
+            Class = "save-10%"
+            Class = "save-20%"
+            Calss = Active Carts btn "subscription__box-btn-cabinet--active"
+          -->
+          <!-- carts-01 -->
+          <div class="subscription__box-cart">
+            <div class="subscription__box-item-top">
+              <p class="subscription__box-title">
+                Monthly plan
+              </p>
+              <p class="subscription__box-txt">
+                45 EUR / month
+              </p>
+            </div>
+            <div class="subscription__box-info">
+              Test and discover all the valuable features of our platform with a month-by-month payment.
+            </div>
+            <a class="subscription__box-btn btn" href="#">
+              <span class="subscription">Get Subscription</span>
+            </a>
+          </div>
+          <!-- carts-02 -->
+          <div class="subscription__hidden">
+            <div class="popup-wrapper" id="getPopupCancel">
+              <div class="popup-wrapper__title">
+                CANCEL SUBSCRIPTION
+              </div>
+              <p class="popup-wrapper_text">
+                Current <span class="popup-wrapper__black">Subscription</span>
+                will be <span class="popup-wrapper__orange">canceled</span>
+              </p>
+              <div class="popup-wrapper-box-btn">
+                <button class="popup-wrapper-btn">cancel</button>
+                <button class="popup-wrapper-btn">confirm</button>
+              </div>
+            </div>
+          </div>
+          <div class="subscription__box-cart save-10">
+            <div class="subscription__box-item-top">
+              <p class="subscription__box-title">
+                Quarterly payment
+              </p>
+              <p class="subscription__box-txt">
+                121 EUR / quarter
+              </p>
+            </div>
+            <div class="subscription__box-info">
+              Balance value and flexibility with our quarterly subscription.
+            </div>
+            <a class="subscription__box-btn btn subscription__box-btn-cabinet--active getCancel" href="#getPopupCancel">
+              <span class="subscription">Get Subscription</span>
+            </a> 
+          </div>
+          <!-- carts-03 -->
+          <div class="subscription__box-cart save-20">
+            <div class="subscription__box-item-top">
+              <p class="subscription__box-title">
+                Annual payment
+              </p>
+              <p class="subscription__box-txt">
+                432 EUR / year
+              </p>
+            </div>
+            <div class="subscription__box-info">
+              Save from day one with our best-value annual subscription.
+            </div>
+            <a class="subscription__box-btn btn" href="#">
+              <span class="subscription">Get Subscription</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_box">
+          <ul class="footer-list">
+            <li class="footer-list__item"><a class="#" href="terms.html">Terms</a></li>
+            <li class="footer-list__item"><a class="#" href="privacy.html">Privacy</a></li>
+            <li class="footer-list__item"><a class="#" href="cookie_policy.html">Cookie Policy</a></li>
+          </ul>
+          <div class="footer__copy">
+            Copyright © 2020 iXQUANT brand of EMI-FT LTD
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
